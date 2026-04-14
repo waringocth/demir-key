@@ -10,13 +10,13 @@ const stagger = {
 };
 const fadeUp = {
   hidden: { opacity: 0, y: 36 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.75, ease: [0.25, 0.46, 0.45, 0.94] } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.75, ease: [0.25, 0.46, 0.45, 0.94] as const } },
 };
 const scrollReveal = (delay = 0) => ({
   initial: { opacity: 0, y: 40 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, amount: 0.2 },
-  transition: { duration: 0.75, delay, ease: [0.25, 0.46, 0.45, 0.94] },
+  transition: { duration: 0.75, delay, ease: [0.25, 0.46, 0.45, 0.94] as const },
 });
 
 /* ─── Static Data ────────────────────────────────────── */
