@@ -50,8 +50,8 @@ const SERVICES = [
   },
   {
     emoji: "🔧",
-    title: "Göbek & Baza Değişimi",
-    desc: "Aşınan, kırılan veya zorla açılmaya çalışılan kilit gövdesi (göbek/silindir) değişimini yerinde ve hızlıca gerçekleştiriyoruz. Aynı markalı veya daha yüksek güvenlik sınıflı alternatif ürünler kullanarak kapınızı daha güvenli hale getiriyoruz. Baza değişimi işlemlerinde mobilyaya zarar vermeden hasarlı parçaları söküp yenisini monte ediyoruz. Tüm işlemler için fatura ve garanti belgesi düzenliyoruz.",
+    title: "Göbek Değişimi",
+    desc: "Aşınan, kırılan veya zorla açılmaya çalışılan kilit gövdesi (göbek/silindir) değişimini yerinde ve hızlıca gerçekleştiriyoruz. Aynı markalı veya daha yüksek güvenlik sınıflı alternatif ürünler kullanarak kapınızı daha güvenli hale getiriyoruz.",
   },
 ];
 

@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FABButtons from "@/components/FABButtons";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -62,6 +63,7 @@ export default function RootLayout({
   return (
     <html lang="tr" className={`${poppins.variable} scroll-smooth`}>
       <body suppressHydrationWarning className="font-[family-name:var(--font-poppins)] bg-bg text-text antialiased flex flex-col min-h-screen relative z-10">
+        <GoogleTagManager gtmId="GTM-NRPKGL78" />
         <Header />
         <main className="flex-grow relative z-10">{children}</main>
         <Footer />
