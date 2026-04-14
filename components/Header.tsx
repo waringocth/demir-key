@@ -58,7 +58,7 @@ export default function Header() {
           </Link>
 
           {/* ── Desktop Nav ── */}
-          <nav className="hidden lg:flex items-center gap-1" aria-label="Ana menü">
+          <nav className="hidden xl:flex items-center gap-1" aria-label="Ana menü">
             {navLinks.map((link) => {
               const active = pathname === link.href;
               return (
@@ -66,7 +66,7 @@ export default function Header() {
                   key={link.href}
                   href={link.href}
                   className={clsx(
-                    "relative px-3 py-2 text-sm font-medium rounded-lg transition-all duration-300",
+                    "relative px-3 py-2 text-sm font-medium rounded-lg transition-all duration-300 whitespace-nowrap",
                     active
                       ? "text-[#FFCC00]"
                       : "text-[#7a7a8c] hover:text-white"
@@ -88,7 +88,7 @@ export default function Header() {
           {/* ── Desktop CTA ── */}
           <a
             href="tel:+905318136860"
-            className="hidden lg:inline-flex items-center gap-2 bg-[#FFCC00] text-[#0a0a0b] font-black text-sm px-4 py-2 rounded-xl hover:scale-105 active:scale-95 transition-all duration-200 shadow-[0_0_16px_rgba(255,204,0,0.4)] hover:shadow-[0_0_28px_rgba(255,204,0,0.7)]"
+            className="hidden xl:inline-flex items-center gap-2 bg-[#FFCC00] text-[#0a0a0b] font-black text-sm px-4 py-2 rounded-xl hover:scale-105 active:scale-95 transition-all duration-200 shadow-[0_0_16px_rgba(255,204,0,0.4)] hover:shadow-[0_0_28px_rgba(255,204,0,0.7)]"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -99,7 +99,7 @@ export default function Header() {
           {/* ── Mobile hamburger ── */}
           <button
             onClick={() => setOpen((v) => !v)}
-            className="lg:hidden p-2 text-[#7a7a8c] hover:text-[#FFCC00] transition-colors"
+            className="xl:hidden p-2 text-[#7a7a8c] hover:text-[#FFCC00] transition-colors"
             aria-expanded={open}
             aria-label={open ? "Menüyü Kapat" : "Menüyü Aç"}
           >
@@ -127,7 +127,7 @@ export default function Header() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden overflow-hidden bg-[#111114]/98 backdrop-blur-xl border-t border-[#2a2a32]"
+            className="xl:hidden overflow-hidden bg-[#111114]/98 backdrop-blur-xl border-t border-[#2a2a32]"
           >
             <nav className="px-4 py-4 space-y-1" aria-label="Mobil menü">
               {navLinks.map((link) => {

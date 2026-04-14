@@ -42,7 +42,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="tr" className={`${poppins.variable} scroll-smooth`}>
-      <body className="font-[family-name:var(--font-poppins)] bg-bg text-text antialiased flex flex-col min-h-screen relative z-10">
+      <body suppressHydrationWarning className="font-[family-name:var(--font-poppins)] bg-bg text-text antialiased flex flex-col min-h-screen relative z-10">
         <Header />
         <main className="flex-grow relative z-10">{children}</main>
         <Footer />
