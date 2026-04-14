@@ -4,7 +4,7 @@ import ServicePageShell from "@/components/ServicePageShell";
 export const metadata: Metadata = {
   title: "Beylikdüzü Çilingir | 7/24 Acil & Nöbetçi Çilingir Hizmeti",
   description:
-    "Beylikdüzü çilingir hizmeti — 15 dakikada kapınızda. Çelik kapı açma, kilit değişimi, göbek değişimi ve nöbetçi çilingir hizmetinde Demir Çilingir güvencesi.",
+    "Beylikdüzü çilingir hizmeti — 15 dakikada kapınızda. Çelik kapı açma, kilit değişimi, göbek değişimi ve nöbetçi çilingir hizmetinde Esenyurt Anahtar güvencesi.",
 };
 
 const BREADCRUMBS = [
@@ -25,7 +25,7 @@ export default function Page() {
         <strong>Beylikdüzü çilingir</strong> hizmetinde İstanbul&apos;un en düzenli ve modern ilçelerinden birinde en
         yüksek kalitede hizmet sunuyoruz. Beylikdüzü, planlı kentsel yapısı, geniş caddeleri ve büyük konut
         kompleksleriyle diğer ilçelerden ayrışan bir profil çizmektedir. Bu yapı, rezidans, site ve toplu konut
-        kapılarına özel uzman çilingir ihtiyacını da beraberinde getirmektedir. Demir Çilingir olarak tüm bu
+        kapılarına özel uzman çilingir ihtiyacını da beraberinde getirmektedir. Esenyurt Anahtar olarak tüm bu
         kapı ve kilit türlerinde çözüm üretiyoruz.
       </p>
       <p>

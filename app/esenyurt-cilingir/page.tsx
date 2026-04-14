@@ -4,7 +4,7 @@ import ServicePageShell from "@/components/ServicePageShell";
 export const metadata: Metadata = {
   title: "Esenyurt Çilingir | 7/24 Acil & Nöbetçi Çilingir Hizmeti",
   description:
-    "Esenyurt çilingir hizmeti — 15 dakikada kapınızda. Çelik kapı açma, kilit değişimi, göbek değişimi ve nöbetçi çilingir hizmetinde Demir Çilingir güvencesi.",
+    "Esenyurt çilingir hizmeti — 15 dakikada kapınızda. Çelik kapı açma, kilit değişimi, göbek değişimi ve nöbetçi çilingir hizmetinde Esenyurt Anahtar güvencesi.",
 };
 
 const BREADCRUMBS = [
@@ -23,7 +23,7 @@ export default function Page() {
     >
       {/* ── Intro ── */}
       <p>
-        <strong>Esenyurt çilingir</strong> hizmetinde Demir Çilingir olarak 15 yılı aşkın deneyimimizle bölgenin en
+        <strong>Esenyurt çilingir</strong> hizmetinde Esenyurt Anahtar olarak 15 yılı aşkın deneyimimizle bölgenin en
         güvenilir adresi olmaya devam ediyoruz. Esenyurt&apos;un hızla büyüyen nüfusu ve yoğun konut yapısı, nitelikli
         çilingir hizmetine olan ihtiyacı her geçen gün artırmaktadır. Biz bu ihtiyaca cevap verebilmek için
         Esenyurt&apos;ta stratejik noktalarda konumlanan mobil servis araçlarımızla sahadadayız ve çağrınızdan itibaren{" "}
@@ -71,7 +71,7 @@ export default function Page() {
       </p>
       <p>
         Pek çok çilingir firması hafta sonu veya gece aramalarına ya cevap vermiyor ya da normal fiyatın iki katı
-        talep ediyor. Demir Çilingir&apos;de bu yaklaşım kesinlikle geçerli değildir. Esenyurt bölgesindeki nöbetçi ekibimiz
+        talep ediyor. Esenyurt Anahtar&apos;da bu yaklaşım kesinlikle geçerli değildir. Esenyurt bölgesindeki nöbetçi ekibimiz
         yıl boyunca — Kurban Bayramı, Ramazan Bayramı, yılbaşı, 23 Nisan, 29 Ekim dahil — 365 gün aktiftir.
       </p>
       <h3>Neden Gece Çilingiri Kritiktir?</h3>
@@ -94,7 +94,7 @@ export default function Page() {
       </p>
       <p>
         Piyasada bazı çilingirler kapıyı tornavida veya levye ile zorlayarak açma girişiminde bulunur. Bu yöntem
-        hem kapı kasasına hem de kilit mekanizmasına kalıcı hasar verir. Demir Çilingir&apos;in teknisyenleri
+        hem kapı kasasına hem de kilit mekanizmasına kalıcı hasar verir. Esenyurt Anahtar&apos;ın teknisyenleri
         uluslararası standartlarda non-destructive (tahribatsız) pick ve tension tekniklerini kullanır; silindir
         içi mekanizmayı hasar vermeden açar. İşlem sonunda kapınız ve kilidiniz fabrikasyon durumundadır.
       </p>

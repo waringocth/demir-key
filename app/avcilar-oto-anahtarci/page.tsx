@@ -28,7 +28,7 @@ export default function Page() {
         içinde araç başındayız.
       </p>
       <p>
-        Demir Çilingir Avcılar mobil oto anahtar ekibi; Cihangir, Firuzköy, Merkez, Tahtakale, Ambarlı ve
+        Esenyurt Anahtar Avcılar mobil oto anahtar ekibi; Cihangir, Firuzköy, Merkez, Tahtakale, Ambarlı ve
         Denizköşkler mahallelerini kapsamaktadır. Araç markanız veya modeliniz ne olursa olsun uzmanlık
         kapsamımızda yer alıyor.
       </p>
@@ -77,7 +77,7 @@ export default function Page() {
       <p>
         <strong>İmmobilizer</strong> sistemi, araç motorunun yalnızca tanımlı transponder çip içeren anahtarla
         çalıştırılmasına izin verir. Bu sistemin kopyalanması ya klonlama yöntemiyle ya da sisteme pin üzerinden
-        doğrudan kayıt yapılarak gerçekleştirilir. Demir Çilingir Avcılar ekibi her iki yöntemi de uygulamaya
+        doğrudan kayıt yapılarak gerçekleştirilir. Esenyurt Anahtar Avcılar ekibi her iki yöntemi de uygulamaya
         yetkili ve donanımlıdır.
       </p>
       <p>

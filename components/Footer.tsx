@@ -2,14 +2,12 @@ import Link from "next/link";
 
 const serviceAreas = [
   { name: "Esenyurt Çilingir", href: "/esenyurt-cilingir" },
-  { name: "Beylikdüzü Çilingir", href: "/beylikduzu-cilingir" },
-  { name: "Avcılar Çilingir", href: "/avcilar-cilingir" },
+  { name: "Bahçeşehir Çilingir", href: "/bahcesehir-cilingir" },
 ];
 const quickLinks = [
   { name: "Ana Sayfa", href: "/" },
   { name: "Esenyurt Oto Anahtarcı", href: "/esenyurt-oto-anahtarci" },
-  { name: "Beylikdüzü Oto Anahtarcı", href: "/beylikduzu-oto-anahtarci" },
-  { name: "Avcılar Oto Anahtarcı", href: "/avcilar-oto-anahtarci" },
+  { name: "Bahçeşehir Oto Anahtar", href: "/bahcesehir-oto-anahtar" },
 ];
 
 export default function Footer() {
@@ -29,7 +27,7 @@ export default function Footer() {
                 </svg>
               </div>
               <span className="font-black text-xl text-white">
-                Demir <span className="text-[#FFCC00]">Çilingir</span>
+                Esenyurt <span className="text-[#FFCC00]">Anahtar</span>
               </span>
             </div>
             <p className="text-[#7a7a8c] text-sm leading-relaxed mb-6">
@@ -90,7 +88,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-[#2a2a32] pt-8 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-[#7a7a8c]">
-          <p>&copy; {new Date().getFullYear()} Demir Çilingir. Tüm Hakları Saklıdır.</p>
+          <p>&copy; {new Date().getFullYear()} Esenyurt Anahtar. Tüm Hakları Saklıdır.</p>
           <p className="flex items-center gap-1">
             <span className="w-1.5 h-1.5 rounded-full bg-[#FFCC00] animate-pulse" />
             7/24 Aktif Servis

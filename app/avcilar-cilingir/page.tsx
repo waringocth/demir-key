@@ -4,7 +4,7 @@ import ServicePageShell from "@/components/ServicePageShell";
 export const metadata: Metadata = {
   title: "Avcılar Çilingir | 7/24 Acil & Nöbetçi Çilingir Hizmeti",
   description:
-    "Avcılar çilingir hizmeti — 15 dakikada kapınızda. Çelik kapı açma, kilit değişimi, göbek değişimi ve nöbetçi çilingir hizmetinde Demir Çilingir güvencesi.",
+    "Avcılar çilingir hizmeti — 15 dakikada kapınızda. Çelik kapı açma, kilit değişimi, göbek değişimi ve nöbetçi çilingir hizmetinde Esenyurt Anahtar güvencesi.",
 };
 
 const BREADCRUMBS = [
@@ -24,7 +24,7 @@ export default function Page() {
       <p>
         <strong>Avcılar çilingir</strong> hizmetinde İstanbul&apos;un köklü ilçelerinden birinde en hızlı ve kaliteli
         çilingir deneyimini sunuyoruz. Avcılar; sahil şeridi, üniversite kampüsü ve yoğun konut dokusundan
-        oluşan heterojen yapısıyla çilingir ihtiyacı açısından oldukça aktif bir bölgedir. Demir Çilingir olarak
+        oluşan heterojen yapısıyla çilingir ihtiyacı açısından oldukça aktif bir bölgedir. Esenyurt Anahtar olarak
         bu bölgede daima hazır ekibimizle 7/24 hizmetinizdeyiz.
       </p>
       <p>

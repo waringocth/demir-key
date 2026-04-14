@@ -102,12 +102,8 @@ const LOCAL_AREAS = [
     desc: "Esenyurt çilingir hizmetimiz kapsamında; Akıncılar, Fatih, Cumhuriyet, Pınar, Mehterçeşme, Saadetdere, Hürriyet, Yeşilkent, Karaburçlar ve Çiğli mahallelerinde görev yapıyoruz.",
   },
   {
-    district: "Beylikdüzü",
-    desc: "Beylikdüzü çilingir hizmetimiz kapsamında; Adnan Kahveci, Barış, Yakuplu, Gürpınar, Büyükşehir, Dereağzı ve Kavakli mahallelerine kesintisiz destek veriyoruz.",
-  },
-  {
-    district: "Avcılar",
-    desc: "Avcılar çilingir hizmetimiz kapsamında; Cihangir, Firuzköy, Merkez, Tahtakale, Ambarlı ve Denizköşkler mahallelerinde 7/24 hizmet sunuyoruz.",
+    district: "Bahçeşehir",
+    desc: "Bahçeşehir çilingir hizmetimiz kapsamında; 1. Kısım, 2. Kısım, 3. Kısım, 4. Kısım, 5. Kısım ve 6. Kısım mahallelerine kesintisiz destek veriyoruz. Villa ve rezidans projelerinde uzman ekibimizle hizmetinizdeyiz.",
   },
 ];
 
@@ -176,7 +172,7 @@ export default function Home() {
             <motion.div variants={fadeUp}>
               <span className="inline-flex items-center gap-2.5 border border-[#FFCC00]/30 bg-[#FFCC00]/8 text-[#FFCC00] text-xs font-bold uppercase tracking-[0.22em] px-5 py-2.5 rounded-full shadow-[0_0_20px_rgba(255,204,0,0.1)]">
                 <span className="w-2 h-2 rounded-full bg-[#FFCC00] animate-pulse" />
-                7/24 Aktif &bull; Esenyurt &bull; Beylikdüzü &bull; Avcılar
+                7/24 Aktif &bull; Esenyurt &bull; Bahçeşehir
               </span>
             </motion.div>
 
@@ -192,7 +188,7 @@ export default function Home() {
 
             {/* Subtitle */}
             <motion.p variants={fadeUp} className="text-[#9a9aac] text-base sm:text-lg max-w-2xl leading-snug sm:leading-relaxed font-medium">
-              Esenyurt, Beylikdüzü ve Avcılar bölgesinde kapıda mı kaldınız? Profesyonel, yetki belgeli
+              Esenyurt ve Bahçeşehir bölgesinde kapıda mı kaldınız? Profesyonel, yetki belgeli
               ustalarımızla 7/24 garantili, hasarsız kapı açma, kilit değiştirme ve oto çilingir hizmeti sunuyoruz.
             </motion.p>
 
@@ -399,11 +395,11 @@ export default function Home() {
               Hizmet <span className="gradient-text">Bölgelerimiz</span>
             </h2>
             <p className="text-[#7a7a8c] text-base max-w-2xl mx-auto">
-              İstanbul&apos;un batı yakasında üç büyük ilçede mahalle mahalle kesintisiz hizmet veriyoruz.
+              İstanbul&apos;un batı yakasında iki bölgede mahalle mahalle kesintisiz hizmet veriyoruz.
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
             {LOCAL_AREAS.map((area, i) => (
               <motion.div
                 key={area.district}
@@ -435,18 +431,18 @@ export default function Home() {
             </h3>
             <div className="space-y-4 text-[#7a7a8c] text-sm sm:text-base leading-relaxed">
               <p>
-                Demir Çilingir olarak İstanbul&apos;un en kalabalık ve en hızlı büyüyen bölgelerinden olan Esenyurt, Beylikdüzü ve
-                Avcılar ilçelerinde birinci sınıf çilingir hizmeti sunuyoruz. Bu üç ilçenin toplam nüfusu 1,5 milyonun üzerinde olup,
-                bölgede her gün yaşanan kapıda kalma, anahtar kayıp ve kilit arızası vakalarına anında müdahale etmek için sahadayız.
+                Esenyurt Anahtar olarak İstanbul&apos;un en kalabalık ve hızla büyüyen bölgelerinden olan Esenyurt ve
+                Bahçeşehir&apos;de birinci sınıf çilingir hizmeti sunuyoruz. Bu iki bölgenin toplam nüfusu 1 milyonun
+                üzerinde olup, bölgede her gün yaşanan kapıda kalma, anahtar kayıp ve kilit arızası vakalarına anında
+                müdahale etmek için sahadayız.
               </p>
               <p>
                 <strong className="text-white">Esenyurt çilingir</strong> hizmetlerimizde Akıncılar Mahallesi, Fatih Mahallesi,
-                Cumhuriyet Mahallesi, Pınar Mahallesi, Mehterçeşme Mahallesi, Saadetdere Mahallesi, Hürriyet Mahallesi, Yeşilkent
-                Mahallesi ve Karaburçlar Mahallesi&apos;nde aktif ekiplerimiz görev yapmaktadır.{" "}
-                <strong className="text-white">Beylikdüzü çilingir</strong> kapsamında Adnan Kahveci Mahallesi, Barış Mahallesi,
-                Yakuplu Mahallesi, Gürpınar Mahallesi, Büyükşehir Mahallesi ve Dereağzı Mahallesi&apos;ne hızla yetişiyoruz.{" "}
-                <strong className="text-white">Avcılar çilingir</strong> hizmeti ise Cihangir Mahallesi, Firuzköy Mahallesi, Merkez
-                Mahallesi, Tahtakale Mahallesi, Ambarlı Mahallesi ve Denizköşkler Mahallesi&apos;ni kapsamaktadır.
+                Cumhuriyet Mahallesi, Pınar Mahallesi, Mehterçeşme Mahallesi, Saadetdere Mahallesi, Hürriyet Mahallesi,
+                Yeşilkent Mahallesi ve Karaburçlar Mahallesi&apos;nde aktif ekiplerimiz görev yapmaktadır.{" "}
+                <strong className="text-white">Bahçeşehir çilingir</strong> kapsamında 1. Kısım, 2. Kısım, 3. Kısım,
+                4. Kısım, 5. Kısım ve 6. Kısım mahallelerine hızla yetişiyoruz. Villa ve rezidanslardaki
+                üst segment kilit sistemlerine müdahalede uzmanlaşmış ekibimiz 10-15 dakikada kapınızda.
               </p>
               <p>
                 Bu bölgelerde yaşayan veya çalışan tüm müşterilerimiz için ev, daire, dükkan, depo, araç ve kasa açma hizmetlerini

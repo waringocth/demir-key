@@ -22,7 +22,7 @@ export default function Page() {
       breadcrumbs={BREADCRUMBS}
     >
       <p>
-        <strong>Beylikdüzü oto anahtarcı</strong> hizmetinde Demir Çilingir, bölgenin en kapsamlı mobil oto anahtar
+        <strong>Beylikdüzü oto anahtarı</strong> hizmetinde Esenyurt Anahtar, bölgenin en kapsamlı mobil oto anahtar
         servisini sunmaktadır. Beylikdüzü&apos;nün geniş caddeleri, büyük AVM otoparklarında ve konut sitesi
         garajlarında yaşanan anahtar kayıplarına, kilitlenme sorunlarına ve yedek anahtar ihtiyaçlarına 15 dakika
         içinde cevap veriyoruz.
@@ -92,7 +92,7 @@ export default function Page() {
       <p>
         Düz anahtarlı aracınızı <strong>sustalı (flip) anahtar</strong>a dönüştürmek hem pratik hem de estetik açıdan
         büyük fark yaratır. Katlanabilir bıçak yapısı cebinizi yırtmaz, çantanıza zarar vermez ve kullanım
-        sırasında son derece konforludur. Demir Çilingir olarak Beylikdüzü&apos;nde bu dönüşümü araç başında
+        sırasında son derece konforludur. Esenyurt Anahtar olarak Beylikdüzü&apos;nde bu dönüşümü araç başında
         gerçekleştiriyoruz.
       </p>
       <p>

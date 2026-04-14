@@ -10,10 +10,8 @@ const navLinks = [
   { name: "Ana Sayfa", href: "/" },
   { name: "Esenyurt Çilingir", href: "/esenyurt-cilingir" },
   { name: "Esenyurt Oto Anahtar", href: "/esenyurt-oto-anahtarci" },
-  { name: "Beylikdüzü Çilingir", href: "/beylikduzu-cilingir" },
-  { name: "Beylikdüzü Oto Anahtar", href: "/beylikduzu-oto-anahtarci" },
-  { name: "Avcılar Çilingir", href: "/avcilar-cilingir" },
-  { name: "Avcılar Oto Anahtar", href: "/avcilar-oto-anahtarci" },
+  { name: "Bahçeşehir Çilingir", href: "/bahcesehir-cilingir" },
+  { name: "Bahçeşehir Oto Anahtar", href: "/bahcesehir-oto-anahtar" },
 ];
 
 export default function Header() {
@@ -42,7 +40,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* ── Logo ── */}
-          <Link href="/" className="flex items-center gap-2.5 group flex-shrink-0" aria-label="Demir Çilingir Ana Sayfa">
+          <Link href="/" className="flex items-center gap-2.5 group flex-shrink-0" aria-label="Esenyurt Anahtar Ana Sayfa">
             <motion.div
               className="w-9 h-9 rounded-xl bg-[#FFCC00] flex items-center justify-center shadow-[0_0_16px_rgba(255,204,0,0.5)] group-hover:shadow-[0_0_28px_rgba(255,204,0,0.8)] transition-shadow duration-300"
               whileHover={{ scale: 1.1, rotate: 3 }}
@@ -53,7 +51,7 @@ export default function Header() {
               </svg>
             </motion.div>
             <span className="font-black text-lg tracking-tight text-white group-hover:text-[#FFCC00] transition-colors duration-300">
-              Demir <span className="text-[#FFCC00]">Çilingir</span>
+              Esenyurt <span className="text-[#FFCC00]">Anahtar</span>
             </span>
           </Link>
 

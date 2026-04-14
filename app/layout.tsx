@@ -14,8 +14,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    default: "Demir Çilingir | 7/24 Profesyonel Çilingir - Esenyurt, Beylikdüzü, Avcılar",
-    template: "%s | Demir Çilingir",
+    default: "Esenyurt Anahtar | 7/24 Profesyonel Çilingir - Esenyurt, Beylikdüzü, Avcılar",
+    template: "%s | Esenyurt Anahtar",
   },
   description:
     "Esenyurt, Beylikdüzü ve Avcılar'da 7/24 profesyonel çilingir ve oto anahtarcı hizmeti. 15 dakikada garantili kapı açma, kilit değişimi. Hemen arayın: 0531 813 68 60",
@@ -28,11 +28,30 @@ export const metadata: Metadata = {
     "7/24 çilingir",
     "acil çilingir",
   ],
-  metadataBase: new URL("https://demircilingir.com"),
+  metadataBase: new URL("https://esenyurtanahtar.com"),
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    siteName: "Demir Çilingir",
+    url: "https://esenyurtanahtar.com",
+    siteName: "Esenyurt Anahtar",
+    title: "Esenyurt Anahtar | 7/24 Profesyonel Çilingir - Esenyurt, Beylikdüzü, Avcılar",
+    description:
+      "Esenyurt, Beylikdüzü ve Avcılar'da 7/24 profesyonel çilingir ve oto anahtarcı hizmeti. 15 dakikada garantili kapı açma, kilit değişimi. Hemen arayın: 0531 813 68 60",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Esenyurt Anahtar - 7/24 Profesyonel Çilingir Hizmeti",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Esenyurt Anahtar | 7/24 Profesyonel Çilingir",
+    description:
+      "Esenyurt, Beylikdüzü ve Avcılar'da 7/24 çilingir hizmeti. 15 dakikada kapınızda. 0531 813 68 60",
+    images: ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },
 };

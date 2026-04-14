@@ -23,7 +23,7 @@ export default function Page() {
     >
       {/* ── Intro ── */}
       <p>
-        <strong>Esenyurt oto anahtarcı</strong> hizmetinde Demir Çilingir, İstanbul&apos;un batı yakasının en donanımlı
+        <strong>Esenyurt oto anahtarı</strong> hizmetinde Esenyurt Anahtar, İstanbul&apos;un batı yakasının en donanımlı
         mobil oto anahtar servisini sunmaktadır. Araç anahtarınızı kaybettiniz, kırdınız veya araç içinde
         unuttunuz mu? Esenyurt&apos;un tüm mahallelerine 15 dakikada ulaşan teknisyenlerimiz; yetkili servis kalitesinde
         işleri yetkili servisin çok altında bir fiyatla ve adresinizde gerçekleştiriyor.
@@ -31,7 +31,7 @@ export default function Page() {
       <p>
         Araç anahtarı teknolojisi son yıllarda son derece karmaşık bir hale gelmiştir. Transponder çipler,
         push-start sistemleri, proximity (yakınlık) anahtarları ve tam entegre immobilizer sistemleri artık neredeyse
-        her yeni araçta standart olarak yer almaktadır. Demir Çilingir teknisyenleri bu teknolojilerin tamamına
+        her yeni araçta standart olarak yer almaktadır. Esenyurt Anahtar teknisyenleri bu teknolojilerin tamamına
         hâkimdir ve sahada çözüm üretebilecek profesyonel cihazlarla donanmıştır.
       </p>
 
@@ -116,7 +116,7 @@ export default function Page() {
       <p>
         <strong>Sustalı (flip) anahtar</strong>, düz anahtarlı araçlarda hem görsel hem de pratik bir yükseltme
         sunar. Kemerinize veya çantanıza zarar vermeyen katlanabilir bıçaklı yapısı ve uzaktan kumanda
-        entegrasyonuyla son derece kullanışlıdır. Demir Çilingir olarak Esenyurt&apos;ta orijinal kumandanıza uyumlu
+        entegrasyonuyla son derece kullanışlıdır. Esenyurt Anahtar olarak Esenyurt&apos;ta orijinal kumandanıza uyumlu
         sustalı anahtar kabuğu ve bıçak üretimi yapıyoruz.
       </p>
       <p>
