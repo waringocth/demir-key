@@ -51,7 +51,7 @@ const AvatarFallback = React.forwardRef<
 AvatarFallback.displayName = "AvatarFallback";
 
 /* ─── Hero Section ──────────────────────────────────── */
-export interface HeroSectionProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface HeroSectionProps extends Omit<React.HTMLAttributes<HTMLDivElement>, "title"> {
   title: React.ReactNode;
   animatedTexts: string[];
   subtitle: string;
