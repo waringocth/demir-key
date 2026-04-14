@@ -170,8 +170,8 @@ export default function Home() {
           }}
         />
 
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-24">
-          <motion.div variants={stagger} initial="hidden" animate="show" className="flex flex-col items-center gap-7">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-10 pb-6 lg:py-24">
+          <motion.div variants={stagger} initial="hidden" animate="show" className="flex flex-col items-center gap-3 sm:gap-5 lg:gap-7">
             {/* Eyebrow badge */}
             <motion.div variants={fadeUp}>
               <span className="inline-flex items-center gap-2.5 border border-[#FFCC00]/30 bg-[#FFCC00]/8 text-[#FFCC00] text-xs font-bold uppercase tracking-[0.22em] px-5 py-2.5 rounded-full shadow-[0_0_20px_rgba(255,204,0,0.1)]">
@@ -191,7 +191,7 @@ export default function Home() {
             </motion.h1>
 
             {/* Subtitle */}
-            <motion.p variants={fadeUp} className="text-[#9a9aac] text-lg sm:text-xl max-w-2xl leading-relaxed font-medium">
+            <motion.p variants={fadeUp} className="text-[#9a9aac] text-base sm:text-lg max-w-2xl leading-snug sm:leading-relaxed font-medium">
               Esenyurt, Beylikdüzü ve Avcılar bölgesinde kapıda mı kaldınız? Profesyonel, yetki belgeli
               ustalarımızla 7/24 garantili, hasarsız kapı açma, kilit değiştirme ve oto çilingir hizmeti sunuyoruz.
             </motion.p>
@@ -208,7 +208,7 @@ export default function Home() {
             </motion.div>
 
             {/* CTAs */}
-            <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 mt-1">
+            <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4">
               <a
                 href="tel:+905318136860"
                 className="group inline-flex items-center justify-center gap-3 bg-[#FFCC00] text-[#0a0a0b] font-black text-lg px-9 py-4 rounded-2xl shadow-[0_0_36px_rgba(255,204,0,0.45)] hover:shadow-[0_0_54px_rgba(255,204,0,0.75)] transition-all duration-300 hover:scale-105 active:scale-95"
