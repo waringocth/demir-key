@@ -197,12 +197,12 @@ export default function Home() {
             </motion.p>
 
             {/* Trust pills */}
-            <motion.div variants={fadeUp} className="flex flex-wrap justify-center gap-3">
+            <motion.div variants={fadeUp} className="grid grid-cols-2 gap-2 w-full sm:flex sm:flex-wrap sm:justify-center sm:gap-3">
               {TRUST.map((t) => (
-                <div key={t.label} className="flex items-center gap-2.5 bg-[#111114] border border-[#2a2a32] rounded-full px-4 py-2.5 hover:border-[#FFCC00]/40 transition-colors duration-300">
-                  <span className="text-base">{t.icon}</span>
-                  <span className="text-[#FFCC00] font-black text-sm">{t.value}</span>
-                  <span className="text-[#7a7a8c] text-xs font-medium">{t.label}</span>
+                <div key={t.label} className="flex items-center gap-1.5 sm:gap-2.5 bg-[#111114] border border-[#2a2a32] rounded-full px-3 py-2 sm:px-4 sm:py-2.5 hover:border-[#FFCC00]/40 transition-colors duration-300">
+                  <span className="text-sm sm:text-base shrink-0">{t.icon}</span>
+                  <span className="text-[#FFCC00] font-black text-xs sm:text-sm whitespace-nowrap">{t.value}</span>
+                  <span className="text-[#7a7a8c] text-[11px] sm:text-xs font-medium leading-tight">{t.label}</span>
                 </div>
               ))}
             </motion.div>
