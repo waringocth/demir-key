@@ -55,6 +55,51 @@ export const metadata: Metadata = {
     images: ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },
+  alternates: {
+    canonical: "https://esenyurtanahtar.com",
+    languages: {
+      "tr-TR": "https://esenyurtanahtar.com",
+    },
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Locksmith",
+  "name": "Esenyurt Anahtar",
+  "url": "https://esenyurtanahtar.com",
+  "telephone": "+905318136860",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  ],
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Esenyurt"
+    },
+    {
+      "@type": "City",
+      "name": "Bahçeşehir"
+    },
+    {
+      "@type": "City",
+      "name": "İstanbul"
+    }
+  ],
+  "image": "https://esenyurtanahtar.com/og-image.jpg"
 };
 
 export default function RootLayout({
@@ -62,6 +107,12 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="tr" className={`${poppins.variable} scroll-smooth`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body suppressHydrationWarning className="font-[family-name:var(--font-poppins)] bg-bg text-text antialiased flex flex-col min-h-screen relative z-10">
         <GoogleTagManager gtmId="GTM-NRPKGL78" />
         <Header />
