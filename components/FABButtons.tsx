@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function FABButtons() {
   return (
-    <div className="fixed bottom-6 right-4 z-50 flex flex-col gap-3 md:bottom-8 md:right-8">
+    <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-3 md:bottom-8 md:right-8">
       {/* WhatsApp FAB */}
       <motion.a
         href="https://wa.me/905318136860"

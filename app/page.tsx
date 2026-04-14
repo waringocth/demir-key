@@ -156,7 +156,7 @@ export default function Home() {
       {/* ══════════════════════════════════════════════
           HERO
       ══════════════════════════════════════════════ */}
-      <section className="relative min-h-[95vh] flex items-center justify-center overflow-hidden bg-[#0a0a0b]">
+      <section className="relative min-h-[95vh] flex flex-col items-start lg:items-center justify-start lg:justify-center overflow-hidden bg-[#0a0a0b]">
         {/* Glow orbs */}
         <div className="absolute top-[-15%] left-[15%] w-[700px] h-[700px] rounded-full bg-[#FFCC00] opacity-[0.035] blur-[140px] pointer-events-none" />
         <div className="absolute bottom-[-10%] right-[5%] w-[500px] h-[500px] rounded-full bg-[#FFCC00] opacity-[0.045] blur-[120px] pointer-events-none" />
@@ -170,7 +170,7 @@ export default function Home() {
           }}
         />
 
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-10 pb-6 lg:py-24">
+        <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-5 pb-6 sm:pt-10 lg:py-24">
           <motion.div variants={stagger} initial="hidden" animate="show" className="flex flex-col items-center gap-3 sm:gap-5 lg:gap-7">
             {/* Eyebrow badge */}
             <motion.div variants={fadeUp}>
