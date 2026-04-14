@@ -15,16 +15,16 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    default: "Esenyurt Anahtar | 7/24 Profesyonel Çilingir - Esenyurt, Beylikdüzü, Avcılar",
+    default: "Esenyurt Anahtar | 7/24 Profesyonel Çilingir - Esenyurt, Bahçeşehir",
     template: "%s | Esenyurt Anahtar",
   },
   description:
-    "Esenyurt, Beylikdüzü ve Avcılar'da 7/24 profesyonel çilingir ve oto anahtarcı hizmeti. 15 dakikada garantili kapı açma, kilit değişimi. Hemen arayın: 0531 813 68 60",
+    "Esenyurt ve Bahçeşehir'de 7/24 profesyonel çilingir ve oto anahtarcı hizmeti. 15 dakikada garantili kapı açma, kilit değişimi. Hemen arayın: 0531 813 68 60",
   keywords: [
     "çilingir",
     "esenyurt çilingir",
-    "beylikdüzü çilingir",
-    "avcılar çilingir",
+    "bahçeşehir çilingir",
+    "esenyurt oto anahtarcı",
     "oto anahtarcı",
     "7/24 çilingir",
     "acil çilingir",
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://esenyurtanahtar.com",
     siteName: "Esenyurt Anahtar",
-    title: "Esenyurt Anahtar | 7/24 Profesyonel Çilingir - Esenyurt, Beylikdüzü, Avcılar",
+    title: "Esenyurt Anahtar | 7/24 Profesyonel Çilingir - Esenyurt, Bahçeşehir",
     description:
-      "Esenyurt, Beylikdüzü ve Avcılar'da 7/24 profesyonel çilingir ve oto anahtarcı hizmeti. 15 dakikada garantili kapı açma, kilit değişimi. Hemen arayın: 0531 813 68 60",
+      "Esenyurt ve Bahçeşehir'de 7/24 profesyonel çilingir ve oto anahtarcı hizmeti. 15 dakikada garantili kapı açma, kilit değişimi. Hemen arayın: 0531 813 68 60",
     images: [
       {
         url: "/og-image.jpg",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Esenyurt Anahtar | 7/24 Profesyonel Çilingir",
     description:
-      "Esenyurt, Beylikdüzü ve Avcılar'da 7/24 çilingir hizmeti. 15 dakikada kapınızda. 0531 813 68 60",
+      "Esenyurt ve Bahçeşehir'de 7/24 çilingir hizmeti. 15 dakikada kapınızda. 0531 813 68 60",
     images: ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },

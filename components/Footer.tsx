@@ -31,7 +31,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-[#7a7a8c] text-sm leading-relaxed mb-6">
-              Esenyurt, Beylikdüzü ve Avcılar bölgelerinde hızlı, güvenilir ve uygun fiyatlı çilingir çözümleri sunuyoruz. Ev, iş yeri ve otomotiv güvenliğiniz uzman ellerde.
+              Esenyurt ve Bahçeşehir bölgelerinde hızlı, güvenilir ve uygun fiyatlı çilingir çözümleri sunuyoruz. Ev, iş yeri ve otomotiv güvenliğiniz uzman ellerde.
             </p>
             <a
               href="tel:+905318136860"
