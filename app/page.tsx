@@ -59,12 +59,12 @@ const WHY_US = [
   {
     icon: "🏆",
     title: "15 Yıllık Tecrübe ve Uzmanlık",
-    text: "Demir Çilingir olarak 2009 yılından bu yana İstanbul'un batı yakasında — başta Esenyurt, Beylikdüzü ve Avcılar olmak üzere — binlerce müşteriye profesyonel çilingir hizmeti sunuyoruz. Ekibimiz İçişleri Bakanlığı onaylı güvenlik sertifikasına sahip, usta belgeli teknisyenlerden oluşmaktadır. Her yıl düzenlenen sektör eğitimlerine katılarak en yeni kilit teknolojileri ve açma yöntemleri konusunda güncel kalıyoruz. Bu deneyim, müdahale ettiğimiz her kapıda en doğru tekniği uygulamanın güvencesidir.",
+    text: "Esenyurt Anahtar olarak 2009 yılından bu yana İstanbul'un batı yakasında — başta Esenyurt, Beylikdüzü ve Avcılar olmak üzere — binlerce müşteriye profesyonel çilingir hizmeti sunuyoruz. Ekibimiz İçişleri Bakanlığı onaylı güvenlik sertifikasına sahip, usta belgeli teknisyenlerden oluşmaktadır. Her yıl düzenlenen sektör eğitimlerine katılarak en yeni kilit teknolojileri ve açma yöntemleri konusunda güncel kalıyoruz. Bu deneyim, müdahale ettiğimiz her kapıda en doğru tekniği uygulamanın güvencesidir.",
   },
   {
     icon: "🛡️",
     title: "%100 Hasarsız Açma Garantisi",
-    text: "Çilingir hizmetinde en büyük endişe, kapıya ya da kilide zarar verilmesidir. Demir Çilingir olarak hiçbir çalışmamızda tahribatlı yöntem kullanmıyoruz. Kullandığımız profesyonel pick takımları, bump anahtar setleri ve dijital kilit analiz cihazları, kilit mekanizmasını yıpratmadan açmaya olanak tanır. İşlem sonrasında kapı ve kasanız orijinal görünümünü korur, kilidiniz bir sonraki kullanım için sağlıklı biçimde çalışmaya devam eder. Aksini kanıtlarsanız tüm maddi hasar bedelini karşılıyoruz — bu bir garanti değil, taahhüttür.",
+    text: "Çilingir hizmetinde en büyük endişe, kapıya ya da kilide zarar verilmesidir. Esenyurt Anahtar olarak hiçbir çalışmamızda tahribatlı yöntem kullanmıyoruz. Kullandığımız profesyonel pick takımları, bump anahtar setleri ve dijital kilit analiz cihazları, kilit mekanizmasını yıpratmadan açmaya olanak tanır. İşlem sonrasında kapı ve kasanız orijinal görünümünü korur, kilidiniz bir sonraki kullanım için sağlıklı biçimde çalışmaya devam eder. Aksini kanıtlarsanız tüm maddi hasar bedelini karşılıyoruz — bu bir garanti değil, taahhüttür.",
   },
   {
     icon: "⚡",
@@ -76,7 +76,7 @@ const WHY_US = [
 const FAQS = [
   {
     q: "Geceleri ve bayраmlarda da hizmet veriyor musunuz?",
-    a: "Evet, Demir Çilingir olarak haftanın 7 günü, günün 24 saati — ulusal bayramlar, hafta sonları ve gece yarısı dahil — kesintisiz hizmet veriyoruz. Gece 03.00'te aradığınızda da aynı profesyonel ekip aynı fiyatla kapınıza geliyor; gece/gündüz fiyat farkı uygulamıyoruz. Tek yapmanız gereken numaramızı aramak veya WhatsApp'tan mesaj atmak; geri kalanını biz hallederiz.",
+    a: "Evet, Esenyurt Anahtar olarak haftanın 7 günü, günün 24 saati — ulusal bayramlar, hafta sonları ve gece yarısı dahil — kesintisiz hizmet veriyoruz. Gece 03.00'te aradığınızda da aynı profesyonel ekip aynı fiyatla kapınıza geliyor; gece/gündüz fiyat farkı uygulamıyoruz. Tek yapmanız gereken numaramızı aramak veya WhatsApp'tan mesaj atmak; geri kalanını biz hallederiz.",
   },
   {
     q: "Kapıya ya da kilide zarar verir misiniz?",
@@ -181,7 +181,7 @@ export default function Home() {
               variants={fadeUp}
               className="text-4xl sm:text-5xl lg:text-[4.5rem] xl:text-[5rem] font-black tracking-tight leading-[1.05] text-white"
             >
-              Demir Çilingir<br />
+              Esenyurt Anahtar<br />
               <span className="gradient-text glow-accent">15 Dakikada</span><br />
               <span className="text-white/90">Kesin Çözüm</span>
             </motion.h1>

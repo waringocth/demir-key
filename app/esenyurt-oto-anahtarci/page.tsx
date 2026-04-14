@@ -89,8 +89,8 @@ export default function Page() {
       <h2>İmmobilizer Anahtar Kopyalama — Çip Programlama</h2>
       <p>
         Modern araçlar, yabancı bir anahtarla çalıştırılmayı engelleyen <strong>immobilizer</strong> sistemleriyle
-        donatılmıştır. Bu sistem, anahtar içindeki transponder çipin araç ECU&apos;suyla eşleşmesini şart koşar. Demir
-        Çilingir&apos;in Esenyurt mobil ekibi; T5, ID48, ID46, ID63, 4D ve HITAG2/HITAG3 gibi yaygın transponder
+        donatılmıştır. Bu sistem, anahtar içindeki transponder çipin araç ECU&apos;suyla eşleşmesini şart koşar. Esenyurt
+        Anahtar&apos;ın Esenyurt mobil ekibi; T5, ID48, ID46, ID63, 4D ve HITAG2/HITAG3 gibi yaygın transponder
         protokollerini programlayabilecek AUTEL, XTOOL ve Keyprog cihazlarıyla donatılmıştır.
       </p>
       <p>
